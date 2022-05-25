@@ -1,0 +1,83 @@
+@page{
+    margin: 0cm ocm;
+    font-size: 1em;
+}
+body{
+    margin: 1.5cm 2cm 2cm;
+}
+header{
+    position: fixed;
+    top: 0cm;
+    left: 0cm;
+    right: 0cm;
+    height: 1.5cm;
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0cm;
+    left: 0cm;
+    right: 0cm;
+    height: 2cm;
+    background-color: #46c568;
+    color: wheat;
+    text-align: center;
+    line-height: 35px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo_reporte{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#inv{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#inv th , #inv th{
+    border: 1px solid #000;
+    padding: 4px;
+}
+
+#inv th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf50;
+    color: #afff;
+    font-size: 12px;
+}
+
+
+#inv td, #inv th{
+    font-size: 10px;
+}
+
+text_center{
+    text-align: center;
+}
+
+
+header #logo{
+    position: fixed;
+    top: 0.1cm;
+    left: 2.5cm;
+    width: 2cm;
+    height: 1.3cm;
+}
+
+/* estilo para hacer salto de pagina*/
+-page-break {
+    page-break-after: always;
+}
